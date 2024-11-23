@@ -1,0 +1,37 @@
+{
+	"Credential": "cf",
+	"Template": {
+		"Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+		"Name": "List Detail",
+		"Version": "0.0.1"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10.hana.ondemand.com",
+		"Organization": "5295234a-efc2-4b9d-a9f0-1fb724dead6c",
+		"Space": "dca6e13b-777f-4e4b-a51d-cf7837e22376"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/5295234a-efc2-4b9d-a9f0-1fb724dead6c/space/dca6e13b-777f-4e4b-a51d-cf7837e22376",
+		"AppId": "json.maps",
+		"Destination": []
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=json.maps&ClientId=d3f8592c-1fc0-46b1-aa54-275be703f627&SapCloudPlatformEndpoint=https://uxm-wz001-i751878-json-maps.cfapps.us10.hana.ondemand.com&AuthorizationEndpointUrl=https://uxm-wz001-i751878-json-maps.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://uxm-wz001-i751878-json-maps.cfapps.us10.hana.ondemand.com&TokenUrl=https://uxm-wz001-i751878-json-maps.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"LCAP": {
+		"FullName": "",
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}
